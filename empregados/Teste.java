@@ -26,7 +26,7 @@ public class Teste {
                 case 1:
                     Chefe c = new Chefe (nome[0], nome [1]);
 
-                    System.out.print("Informe o salário:");
+                    System.out.print("Informe o salário: ");
                     salario = c.setSalario(sc.nextDouble());
 
                     System.out.println("O salário mensal desse funcionário é: " + c.calcularGanho());
